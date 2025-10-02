@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de Etiquetas HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        .example {
+            background-color: white;
+            padding: 15px;
+            margin: 20px 0;
+            border-left: 4px solid #3498db;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .code {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Este es un comentario: la página principal que muestra ejemplos de etiquetas HTML -->
+    
+    <h1>Ejemplos de Etiquetas HTML</h1>
+    <!-- Comentario: Este es el encabezado principal de nivel 1 -->
+    
+    <div class="example">
+        <h2>Encabezados (h1 a h6)</h2>
+        <!-- Los encabezados establecen jerarquía e importancia del texto -->
+        <h1>Este es un encabezado H1 - El más importante</h1>
+        <h2>Este es un encabezado H2 - Segundo nivel</h2>
+        <h3>Este es un encabezado H3 - Tercer nivel</h3>
+        <h4>Este es un encabezado H4 - Cuarto nivel</h4>
+        <h5>Este es un encabezado H5 - Quinto nivel</h5>
+        <h6>Este es un encabezado H6 - El menos importante</h6>
+    </div>
+
+    <div class="example">
+        <h2>Enlaces</h2>
+        <!-- La etiqueta <a> permite crear enlaces a otras páginas -->
+        <p>Visita <a href="https://www.google.com">Google</a> para buscar información.</p>
+        <p>También puedes crear <a href="#ejemplo-parrafos">enlaces internos</a> dentro de la misma página.</p>
+    </div>
+
+    <div class="example">
+        <h2>Línea horizontal</h2>
+        <p>Aquí hay texto antes de la línea horizontal.</p>
+        <!-- La etiqueta <hr> crea una línea horizontal para separar contenido -->
+        <hr>
+        <p>Y aquí hay texto después de la línea horizontal.</p>
+    </div>
+
+    <div class="example">
+        <h2>Formato de texto básico</h2>
+        <!-- Ejemplos de formato básico de texto -->
+        <p><b>Este texto está en negrita</b></p>
+        <p><i>Este texto está en cursiva</i></p>
+        <p><u>Este texto está subrayado</u></p>
+        <p><b><i>Este texto combina negrita y cursiva</i></b></p>
+        <p><u><i>Este texto combina subrayado y cursiva</i></u></p>
+    </div>
+
+    <div class="example">
+        <h2>Superíndices y subíndices</h2>
+        <!-- Ejemplos de super y subíndices -->
+        <p>La fórmula del agua es H<sub>2</sub>O</p>
+        <p>Einstein propuso E=mc<sup>2</sup></p>
+        <p>2<sup>3</sup> = 8 y log<sub>2</sub>8 = 3</p>
+    </div>
+
+    <div class="example">
+        <h2>Énfasis</h2>
+        <!-- La etiqueta <em> enfatiza texto -->
+        <p>Es <em>muy importante</em> recordar esto.</p>
+        <p>No confundir <em>énfasis</em> con <i>cursiva simple</i>.</p>
+    </div>
+
+    <div class="example" id="ejemplo-parrafos">
+        <h2>Párrafos y saltos de línea</h2>
+        <!-- Los párrafos separan bloques de texto -->
+        <p>Este es el primer párrafo. Los párrafos se separan automáticamente con espacios.</p>
+        <p>Este es el segundo párrafo.</p>
+        <p>Aquí tenemos texto con<br/>un salto de línea manual usando la etiqueta br.</p>
+    </div>
+
+    <div class="example">
+        <h2>Abreviaturas</h2>
+        <!-- La etiqueta <abbr> muestra el significado completo al pasar el ratón -->
+        <p>El <abbr title="World Wide Web Consortium">W3C</abbr> define los estándares web.</p>
+        <p>En <abbr title="España">ESP</abbr> utilizamos el <abbr title="Sistema Internacional de Unidades">SI</abbr>.</p>
+    </div>
+
+    <div class="example">
+        <h2>Citas largas</h2>
+        <!-- blockquote se usa para citas extensas -->
+        <blockquote>
+            <p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.</p>
+        </blockquote>
+    </div>
+
+    <div class="example">
+        <h2>Citas breves</h2>
+        <!-- cite se usa para citas cortas -->
+        <p>Es habitual decir <cite>Alea jacta est</cite> cuando se toma una decisión irreversible.</p>
+        <p>Como dijo Shakespeare: <cite>Ser o no ser, esa es la cuestión</cite>.</p>
+    </div>
+
+    <div class="example">
+        <h2>Texto modificado</h2>
+        <!-- del muestra texto eliminado, ins muestra texto insertado -->
+        <p>El precio original era <del>50 euros</del> pero ahora cuesta <ins>35 euros</ins>.</p>
+        <p>Mi nombre es <del>Juan</del> <ins>José</ins> García.</p>
+    </div>
+
+    <div class="example">
+        <h2>Definiciones</h2>
+        <!-- dfn se usa para marcar definiciones -->
+        <p><dfn>HTML</dfn> es el lenguaje de marcado estándar para crear páginas web.</p>
+        <p>Un <dfn>navegador web</dfn> es una aplicación que permite visualizar páginas web.</p>
+    </div>
+
+    <div class="example">
+        <h2>Texto destacado</h2>
+        <!-- mark resalta texto de forma muy visible -->
+        <p>Este texto contiene una <mark>palabra muy importante</mark> que necesita destacarse.</p>
+        <p>En el examen, recuerda que <mark>esto entrará seguro</mark>.</p>
+    </div>
+
+    <div class="example">
+        <h2>Resultados de cálculos</h2>
+        <!-- output se usa para mostrar resultados -->
+        <p>La suma de 15 + 25 es: <output>40</output></p>
+        <p>El área del círculo es: <output>78.54 cm²</output></p>
+    </div>
+
+    <div class="example">
+        <h2>Ejemplos de código</h2>
+        <!-- samp muestra ejemplos de salida de programas -->
+        <p>Cuando ejecutas el programa, aparece: <samp>Hola Mundo</samp></p>
+        <p>El sistema muestra: <samp>Archivo guardado correctamente</samp></p>
+    </div>
+
+    <div class="example">
+        <h2>Texto tipo máquina de escribir</h2>
+        <!-- tt imita el estilo de las máquinas de escribir -->
+        <p>En los ordenadores antiguos se veía: <tt>C:\DOS> dir</tt></p>
+        <p>Los códigos se escribían así: <tt>10 PRINT "HOLA"</tt></p>
+    </div>
+
+    <div class="example">
+        <h2>Ruptura de palabras</h2>
+        <!-- wbr sugiere dónde puede romperse una palabra larga -->
+        <p>Esta es una palabra muy larga: supercali<wbr/>fragilístico<wbr/>expialidoso</p>
+        <p>URL larga: https://www.ejemplo<wbr/>.com/pagina<wbr/>/muy<wbr/>/larga</p>
+    </div>
+
+    <hr>
+    <!-- Comentario final: Esta línea separa el contenido del pie de página -->
+    
+    <footer>
+        <p><i>Página creada para demostrar las principales etiquetas de formato HTML</i></p>
+        <!-- Este comentario no se ve, pero explica el propósito del footer -->
+    </footer>
+
+</body>
+</html>
